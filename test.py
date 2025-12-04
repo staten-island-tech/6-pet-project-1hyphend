@@ -1,9 +1,23 @@
 class pet():
     def __init__ (self, name, inventory):
-        self.name()
-        self.self
-        self.inventory()
-        
+        self.name = name 
+        self.inventory = inventory 
+    def buy(self, items):
+        self.inventory.append(items)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -48,6 +62,7 @@ class pet():
 
 
 
+# .lower makes things all letters lower case
 
 
 
@@ -65,5 +80,3 @@ class pet():
 
 
 
-
-67667676776767667766767676767766776786767667877667767687676766767768675
