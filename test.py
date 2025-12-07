@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 # class pet():
 #     def __init__(name, self):
+=======
+class pet():
+    def __init__ (self, name, inventory):
+        self.name = name 
+        self.inventory = inventory 
+    def buy(self, items):
+        self.inventory.append(items)
 
 
 
@@ -8,6 +16,73 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class Calculator():
+#     def add(x, y):
+#         print(x + y)
+#         return x + y
+
+#     def add_many(numbers):
+#         print(sum(numbers))
+#         return sum(numbers)
+
+#     def subtract(numbers):
+#         return numbers
+
+# Calculator.add(5, 67)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# .lower makes things all letters lower case
+
+
+
+
+
+
+>>>>>>> ac8fc1853316b50c0c522094540d01025b95df1e
+
+
+
+
+
+
+
+
+<<<<<<< HEAD
 # class Calculator():
 #     def add(x, y):
 #         print(x + y)
@@ -43,3 +118,8 @@ while period:
         print("Mr. Waugh is a very chill teacher")
     elif period==10:
         print("Mr.Chiechi teaches us how to speak italian for when we go to Italy")
+=======
+
+
+
+>>>>>>> ac8fc1853316b50c0c522094540d01025b95df1e
