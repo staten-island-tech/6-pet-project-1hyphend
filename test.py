@@ -1,18 +1,25 @@
 class superdupercooltryranasourausrex():
-    def __init__ (self, petname, money, happiness, hunger, clean,name):
+    def __init__ (self, petname, money, happiness, hunger, clean,sleep):
         self.petname = petname
         self.money = money 
         self.happiness = happiness
         self.hunger = hunger
         self.clean = clean
-        self.name = name
+        self.sleep = sleep
     def alive(self):
+        if self.hunger < 1:
+            print ("BRO AINT NO WAY HOW DID U LET YOUR PET DIE U BROKIE")
+        if self.happiness < 1:
+            print("YOUR CAT RAN AWAY")
+        if self.clean < 1: 
+            print ("your pet has rabies and bit you so you both DIED HAhA")
+        if self.sleep < 1:
+            print("You shalln't advance thy day bluddy, your pet needs the sleep")
 
 
-    def alive(pet):
 
 
-
+    money = 100
     hunger = 100
     clean = 100
     sleep = 100
