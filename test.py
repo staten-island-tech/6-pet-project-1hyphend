@@ -1,4 +1,4 @@
-class superdupercooltryranasourausrex():
+class superdupercooltryranasourausrex:
     def __init__ (self, petname, money, happiness, hunger, clean,sleep):
         self.petname = petname
         self.money = money 
@@ -15,22 +15,41 @@ class superdupercooltryranasourausrex():
             print ("your pet has rabies and bit you so you both DIED HAhA")
         if self.sleep < 1:
             print("You shalln't advance thy day bluddy, your pet needs the sleep")
+input("welcome to raise a flopper!!! Here are yoiur stats ")
+money = 100
+hunger = 100
+clean = 100
+sleep = 100
+happiness = 100 
 
 
 
 
-    money = 100
-    hunger = 100
-    clean = 100
-    sleep = 100
-    happiness = 100 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class human(superdupercooltryranasourausrex):
+
+
+
+
+
+
         
 
-    if self.pet
-    hunger > 0
-    sleep > 0 
-    clean > 0 
-    happiness > 0
+
 
 
 
