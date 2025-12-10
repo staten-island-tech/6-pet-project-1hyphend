@@ -71,6 +71,7 @@ name = input("what are you going to name your pet")
 pet = superdupercooltryranasourausrex(money, happiness, hunger, clean, sleep)
 while True:
     if pet.alive() == False:
+        print ("your pet died skull emoji")
         break
 
 print("\n what do you want to do?")
