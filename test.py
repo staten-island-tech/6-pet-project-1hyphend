@@ -5,7 +5,7 @@ class superdupercooltryranasourausrex:
         self.happiness = happiness
         self.hunger = hunger
         self.clean = clean
-        self.sleep = sleep
+        self.slep = sleep
     def alive(self):
         if self.hunger < 1:
             print ("BRO AINT NO WAY HOW DID U LET YOUR PET DIE U BROKIE")
@@ -16,7 +16,7 @@ class superdupercooltryranasourausrex:
         if self.clean < 1: 
             print ("your pet has rabies and bit you so you both DIED HAhA")
             return("dead")
-        if self.sleep < 1:
+        if self.slep < 1:
             print("You shalln't advance thy day bluddy, your pet needs the sleep")
             return("dead")
     def eat (self):
@@ -25,9 +25,9 @@ class superdupercooltryranasourausrex:
             self.hunger + 20
             self.happiness + 6
             print("you fed your pet thumbs up emoji")
-    def sleep (self):
+    def slp (self):
         if sleep(self): 
-            self.sleep +=20
+            self.slep +=20
             day +=1
             print("sleeping through the night. IF YOU KNOW YOU KNOW HAHAHAHA")
     def play (self): 
@@ -59,23 +59,24 @@ class superdupercooltryranasourausrex:
     
 
 
-input("welcome to raise a flopper!!! Here are yoiur stats. \n press enter to advance")
+
 money = 100
 hunger = 100
 clean = 100
 sleep = 100
 happiness = 100 
 day = 1
-
+input("welcome to raise a flopper!!! Here are yoiur stats. \n press enter to advance")
 name = input("what are you going to name your pet")
 pet = superdupercooltryranasourausrex(money, happiness, hunger, clean, sleep)
+
 while True:
     if pet.alive() == False:
         print ("your pet died skull emoji")
         break
 
 print("\n what do you want to do?")
-print("1. ear")
+print("1. eat")
 print("2. play")
 print("3. sleep")
 print ("4. clean")
