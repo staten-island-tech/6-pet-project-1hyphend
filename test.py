@@ -28,7 +28,7 @@ class superdupercooltryranasourausrex:
             self.happiness += 6
             print("you fed your pet")
         else: 
-            print("\nNO MONEY HABIBI go work")
+            print("\nNO MONEY go work")
 
     def sleep_pet(self):
         self.sleep += 15
@@ -45,7 +45,7 @@ class superdupercooltryranasourausrex:
             self.sleep -= 5
             print("your pet is happy")
         else: 
-            print("\nNO MONEY HABIBI go work")
+            print("\nNO MONEY go work")
 
     def work(self):
         self.money += 35
@@ -61,7 +61,7 @@ class superdupercooltryranasourausrex:
             self.happiness += 5
             print("you cleaned your pet")
         else: 
-            print("\nNO MONEY HABIBI go work")
+            print("\nNO MONEY go work")
 
     def stats(self):
         print("\nHere are your current stats:")
