@@ -28,7 +28,7 @@ class superdupercooltryranasourausrex:
             self.happiness += 6
             print("you fed your pet")
         else: 
-            print("NO MONEY HABIBI go work")
+            print("\nNO MONEY HABIBI go work")
 
     def sleep_pet(self):
         self.sleep += 15
@@ -45,7 +45,7 @@ class superdupercooltryranasourausrex:
             self.sleep -= 5
             print("your pet is happy")
         else: 
-            print("NO MONEY HABIBI go work")
+            print("\nNO MONEY HABIBI go work")
 
     def work(self):
         self.money += 35
@@ -61,7 +61,7 @@ class superdupercooltryranasourausrex:
             self.happiness += 5
             print("you cleaned your pet")
         else: 
-            print("NO MONEY HABIBI go work")
+            print("\nNO MONEY HABIBI go work")
 
     def stats(self):
         print("\nHere are your current stats:")
@@ -105,10 +105,10 @@ while True:
     elif choice == "2":
         pet.play()
     elif choice == "3":
-        pet.sleep_pet()
+        pet.sleep_pet
     elif choice == "4":
         pet.shower()
     elif choice == "5":
         pet.work()
     else:
-        print("choose an option from 1-5 not 6 or 7")
+        print("\nchoose an option from 1-5 not 6 or 7")
