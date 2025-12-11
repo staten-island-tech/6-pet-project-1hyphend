@@ -5,8 +5,12 @@ class superdupercooltryranasourausrex:
         self.happiness = happiness
         self.hunger = hunger
         self.clean = clean
+<<<<<<< HEAD
         self.sleep = sleep
 
+=======
+        self.slep = sleep
+>>>>>>> f221a747eca4a498b61af9816a90016e4c128357
     def alive(self):
         if self.hunger < 1:
             print ("BRO AINT NO WAY HOW DID U LET YOUR PET DIE U BROKIE")
@@ -15,14 +19,21 @@ class superdupercooltryranasourausrex:
             print("YOUR CAT RAN AWAY")
             return "dead"
         if self.clean < 1: 
+<<<<<<< HEAD
             print ("your pet has rabies you DIED HAhA")
             return "dead"
         if self.sleep < 1:
+=======
+            print ("your pet has rabies and bit you so you both DIED HAhA")
+            return("dead")
+        if self.slep < 1:
+>>>>>>> f221a747eca4a498b61af9816a90016e4c128357
             print("You shalln't advance thy day bluddy, your pet needs the sleep")
             return "dead"
 
     def eat(self):
         if self.money >= 25:
+<<<<<<< HEAD
             self.money -= 25
             self.hunger += 15
             self.happiness += 6
@@ -35,6 +46,18 @@ class superdupercooltryranasourausrex:
         print("sleeping through the night n\IF YOU KNOW YOU KNOW ")
 
     def play(self): 
+=======
+            self.money - 15
+            self.hunger + 20
+            self.happiness + 6
+            print("you fed your pet thumbs up emoji")
+    def slp (self):
+        if sleep(self): 
+            self.slep +=20
+            day +=1
+            print("sleeping through the night. IF YOU KNOW YOU KNOW HAHAHAHA")
+    def play (self): 
+>>>>>>> f221a747eca4a498b61af9816a90016e4c128357
         if self.money >= 10:
             self.money -= 10
             self.happiness += 15
@@ -71,10 +94,15 @@ class superdupercooltryranasourausrex:
 
 input("Welcome to raise a flopper!!! Press (((enter))) to start\n")
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> f221a747eca4a498b61af9816a90016e4c128357
 money = 100
 hunger = 100
 clean = 100
 sleep = 100
+<<<<<<< HEAD
 happiness = 100
 name = input("What are you going to name your pet? ")
 
@@ -85,6 +113,25 @@ while True:
         break
 
     pet.stats()
+=======
+happiness = 100 
+day = 1
+input("welcome to raise a flopper!!! Here are yoiur stats. \n press enter to advance")
+name = input("what are you going to name your pet")
+pet = superdupercooltryranasourausrex(money, happiness, hunger, clean, sleep)
+
+while True:
+    if pet.alive() == False:
+        print ("your pet died skull emoji")
+        break
+
+print("\n what do you want to do?")
+print("1. eat")
+print("2. play")
+print("3. sleep")
+print ("4. clean")
+print("5. make a youtube video")
+>>>>>>> f221a747eca4a498b61af9816a90016e4c128357
 
     print("\nWhat do you want to do?")
     print("1. eat")
