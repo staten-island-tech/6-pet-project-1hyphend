@@ -49,10 +49,10 @@ class superdupercooltryranasourausrex:
 
     def work(self):
         self.money += 35
-        self.happiness -= 10
-        self.hunger -= 10
-        self.sleep -= 10
-        self.clean -= 6
+        self.happiness -= 20
+        self.hunger -= 20
+        self.sleep -= 15
+        self.clean -= 10
 
     def shower(self):
         if self.money >= 5:
@@ -72,6 +72,7 @@ class superdupercooltryranasourausrex:
         print("\nHappiness:", self.happiness)
         print("\nClean:", self.clean)
         print("\nSleep:", self.sleep)
+        print("\nDays:", )
         print("----------------------------")
 
 input("Welcome to raise a flopper!!! Press (((enter))) to start\n")
@@ -87,7 +88,7 @@ pet = superdupercooltryranasourausrex(name, money, happiness, hunger, clean, sle
 
 while True:
     if pet.alive() == "dead":
-        break
+        break 
 
     pet.stats()
 
