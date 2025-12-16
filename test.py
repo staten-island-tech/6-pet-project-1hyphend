@@ -61,7 +61,9 @@ class superdupercooltryranasourausrex:
             self.happiness += 5
             print("you cleaned your pet")
         else: 
+            print(" ")
             print("\nNO MONEY go work")
+            print("                  ")
 
     def stats(self):
         print("\nHere are your current stats:")
